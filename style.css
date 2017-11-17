@@ -1,0 +1,87 @@
+html {
+  box-sizing: border-box;
+ }
+ *, *:before, *:after {
+   box-sizing: inherit;
+
+}
+
+p{
+  font-size: 22px;
+}
+
+body{
+background-image: url(/home/minty/git/Vcard/background.png);
+font-family: 'Cousine', monospace;
+}
+
+.page {
+display:grid;
+grid-gap: 10px;
+grid-template-rows: 75%;
+margin-left: auto;
+margin-left: auto;
+margin-right: auto;
+justify-content: center;
+align-content: end;
+max-height: 1200px
+
+
+
+}
+
+
+
+.infophoto{
+grid-template-columns: 300px 300px 300px
+
+}
+
+.infoone{
+grid-column: 2;
+grid-row: 1;
+text-align: left;
+margin-right: -100px;
+text-align: justify;
+
+
+
+
+}
+
+.infotwo{
+grid-column: 1;
+grid-row: 2;
+font-weight: bold;
+
+
+}
+
+.infothree{
+grid-column: 2;
+grid-row: 2;
+
+
+
+}
+
+
+.photo{
+margin-top: 30px;
+}
+
+.atouts{
+grid-row: 2;
+text-align: center;
+
+}
+
+
+#phototwo{
+
+}
+
+#onethree {
+margin-right: -200px
+
+}
