@@ -11,7 +11,7 @@ p{
 }
 
 body{
-background-image: url(/home/minty/git/Vcard/background.png);
+background-image: url(https://github.com/mariomliberio/Vcard/blob/master/background.png?raw=true);
 font-family: 'Cousine', monospace;
 
 }
@@ -90,6 +90,7 @@ max height: 200px;
 }
 
 #onethree {
-margin-right: -200px
+margin-right: -200px;
+  
 
 }
